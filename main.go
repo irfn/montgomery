@@ -46,5 +46,6 @@ func main() {
 		return
 	}
 
-	fmt.Println(out)
+	fmt.Println(out["hello/templates/deployment.yaml"])
+	fmt.Println(out["hello/templates/service.yaml"])
 }
