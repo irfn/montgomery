@@ -3,6 +3,7 @@ module github.com/irfn/montgomery
 go 1.15
 
 require (
+	github.com/go-git/go-git/v5 v5.2.0
 	github.com/helm/helm v2.17.0+incompatible // indirect
 	golang.org/x/tools/gopls v0.6.5 // indirect
 	helm.sh/helm/v3 v3.5.2
